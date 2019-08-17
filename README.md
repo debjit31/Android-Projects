@@ -1,2 +1,3 @@
 # Android-Projects
-#1. Splash Screen Project 
+# A Simple Splash Screen Project 
+## Took Twitter Icon for Example
