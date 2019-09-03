@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Demo App</string>
+    <string name="my_great_app">MY GREAT APP</string>
+    <string name="button_1">Button 1</string>
+    <string name="todo">TODO</string>
+    <string name="change_image">Change Image</string>
+    <string name="button">Button</string>
+    <string name="change_pic">Change Pic</string>
+</resources>
