@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="all">
+    <item android:title="Profile Settings">
+        <menu >
+            <item
+                android:id="@+id/change_pass"
+                android:title="Change Password" />
+            <item
+                android:id="@+id/change_photo"
+                android:title="Change Photo" />
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/cal"
+        android:title="Organization Calender" />
+
+    <item android:title="Payments">
+        <menu>
+            <item
+                android:id="@+id/pay_details"
+                android:title="Payment Details" />
+            <item
+                android:id="@+id/dues"
+                android:title="Dues and Pay Fees" />
+        </menu>
+    </item>
+    </group>
+    <item
+        android:id="@+id/info"
+        android:title="Info and Projects" />
+
+    <group>
+    <item android:title="Student Grades">
+        <menu>
+            <item
+                android:id="@+id/uni_marks"
+                android:title="University Marks System" />
+            <item
+                android:id="@+id/unit_test"
+                android:title="Unit Test Details" />
+        </menu>
+    </item>
+    </group>
+
+    <group>
+    <item
+        android:id="@+id/library"
+        android:title="Library" />
+    <item
+        android:id="@+id/online_test"
+        android:title="Online Test and Fedback" />
+    <item
+        android:id="@+id/atten"
+        android:title="Attendance" />
+    <item
+        android:id="@+id/exam_form"
+        android:title="Exam Form" />
+    <item
+        android:id="@+id/admit_card"
+        android:title="Admit Card" />
+    </group>
+</menu>

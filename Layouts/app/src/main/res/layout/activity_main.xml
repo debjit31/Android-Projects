@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_height="wrap_content"
+        android:layout_width="450dp"
+        android:text="Layouts"
+        android:gravity="center_horizontal"
+        android:textSize="50sp"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:layout_margin="30dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:id="@+id/linear1"
+        android:layout_below="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btna"
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:layout_below="@+id/head"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"
+            android:text="Button 1"/>
+
+        <Button
+            android:id="@+id/btnb"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btna"
+            android:layout_width="150dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"
+            android:text="Button 2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_margin="30dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/linear1">
+
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="40dp"
+            android:text="Button 1" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="5dp"
+            android:text="Button 2"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#FFA07A">
+
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:text="Number Checker"
+        android:textSize="40sp"
+        android:gravity="center_horizontal"
+        android:textColor="#060300"
+        />
+
+    <TextView
+        android:id="@+id/tasktv"
+        android:layout_below="@+id/heading"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="App to check whether a number is triangular , square or both or neither"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:textColor="#060300" />
+
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/tasktv"
+        android:layout_marginTop="30dp"
+        android:inputType="number" />
+
+
+    <Button
+        android:id="@+id/check_btn"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/ed1"
+        android:layout_centerHorizontal="true"
+        android:text="TEST NUMBER" />
+
+
+
+
+</RelativeLayout>

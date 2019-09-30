@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CRP Initial Layout</string>
+    <string name="open_navigaion_drawer">Open Navigation Drawer</string>
+    <string name="close_navigaion_drawer">Close Navigation Drawer</string>
+</resources>
