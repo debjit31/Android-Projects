@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".card1_details"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:layout_weight="10">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:text="Card 1 Details Page"
+        android:textStyle="bold"
+        android:textSize="34sp"
+        android:gravity="center"
+        android:textColor="@android:color/holo_blue_dark"/>
+
+</RelativeLayout>
