@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".spyder_register"
+    tools:ignore="MissingDefaultResource">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/intrinsic_padding"
+        android:paddingRight="@dimen/intrinsic_padding"
+        android:paddingTop="@dimen/intrinsic_padding">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/intrinsic_padding"
+            android:paddingRight="@dimen/intrinsic_padding"
+            android:paddingTop="@dimen/intrinsic_padding">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_view2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/eventImage_event_details"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/post_list_item_image_height"
+                        android:layout_marginBottom="@dimen/intrinsic_padding"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/spy_der"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/eventImage_event_details"
+                        android:textAlignment="center"
+                        android:gravity="start"
+                        android:textColor="#414040"
+                        android:textStyle="bold|italic"
+                        android:textSize="25dp"
+                        android:text="SPYDER (WEB DESIGN)"
+                        />
+
+
+
+
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/intrinsic_padding"
+            android:paddingTop="@dimen/intrinsic_padding"
+            android:paddingRight="@dimen/intrinsic_padding">
+
+            <RelativeLayout
+                android:layout_width="391dp"
+                android:layout_height="62dp">
+
+                <TextView
+                    android:id="@+id/date_event_details"
+                    android:layout_width="282dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:text="15/02/2020 - 16/02/2020"
+                    android:textAlignment="center"
+                    android:textColor="#07090C"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="-8dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="-8dp"
+                    android:src="@drawable/cal" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="83dp">
+
+                <TextView
+                    android:id="@+id/venue_event_details"
+                    android:layout_width="281dp"
+                    android:layout_height="39dp"
+                    android:text="VENUE"
+                    android:textColor="#07090C"
+                    android:textStyle="bold"
+                    android:background="#BB9BE0"
+                    android:textAlignment="textStart"
+                    android:textSize="20dp"
+                    android:gravity="start" />
+
+                <TextView
+                    android:id="@+id/address_event_details"
+                    android:layout_width="281dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/venue_event_details"
+                    android:layout_marginTop="-3dp"
+                    android:gravity="start"
+                    android:text="University Premises"
+                    android:textAlignment="textStart"
+                    android:textColor="#07090C"
+                    android:textSize="19dp"
+                    android:textStyle="italic" />
+
+                <ImageView
+                    android:id="@+id/venue_image"
+                    android:layout_toRightOf="@+id/address_event_details"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginLeft="60dp"
+                    android:layout_width="55dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="17dp"
+                    android:src="@drawable/loc_2" />
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="ABOUT THE EVENT:"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:background="#84ABE6"
+                android:textColor="#070809"/>
+
+            <TextView
+                android:id="@+id/description_event_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We don't just build websites. We build websites that SELL-~Christopher Dayagdag.
+
+            Flaunt your e-creativity. Merge them into websites. And cause people to dig in to the awe of aesthetic vision. Do you think you can own this task?
+            Do you think you can craft your websites into uniqueness?
+
+            Bring on your skills to *Spyder*, a web designing competition offered by the biggest Techno-Management fest, *Ureckon 2020*!!
+
+            *15-16 February * awaits your skills to pour in! Bring on the flavour to this competition by indulging in e-art and aesthetism!
+"
+                android:textAlignment="center"
+                android:textColor="#0F0F0F"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="COORDINATORS:"
+                android:textSize="20dp"
+                android:background="#EEA8A8"
+                android:textStyle="bold"
+                android:textColor="#070809"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rupal Jain : "
+                android:textSize="18dp"
+                android:textColor="#070809"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Soumyodip Chowdhury : "
+                android:textSize="18dp"
+                android:textColor="#070809"/>
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="411dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="15dp">
+
+            <Button
+                android:id="@+id/event_reg"
+                android:layout_width="366dp"
+                android:layout_height="63dp"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/button_bg"
+                android:text="Register for Event"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
